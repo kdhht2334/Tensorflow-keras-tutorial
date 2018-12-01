@@ -16,7 +16,7 @@ tf.enable_eager_execution()
 x_train = x_train.astype(np.float32)
 x_test = x_test.astype(np.float32)
 x_train = np.reshape(x_train, (len(x_train), 784))
-x_test = np.reshape(x_test, (len(x_test), 784))
+x_tesFt = np.reshape(x_test, (len(x_test), 784))
 x_train /= 255.
 x_test /= 255.
 

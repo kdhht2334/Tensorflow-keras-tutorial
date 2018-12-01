@@ -65,7 +65,7 @@ class Dense_with_noise(tf.keras.layers.Layer):
         return base_config
     
     @classmethod
-    def from_config(cls, config):
+    def from_config(cls, config):GcS
         return cls(**config)
 
 # Build a tf.keras model
