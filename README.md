@@ -1,17 +1,54 @@
-# Tensorflow and keras tutorial
+## Tensorflow and keras tutorial
 
-You can learn the latest tensorflow and keras examples here.
+We will use `tf.keras`, a way to more easily and efficiently use the tensor flow. 
 
-We will mainly call the library as below.
+This will show you how to make model design and tensorflow easier than ever before.
+
+You will start in the following way.
 
 ```python
 import tf.keras
 
 ```
 
+You can use below 2 methods for tensorflow model construction.
+
+```python
+inp = tf.keras.layers.Input(shape=(32, 32, 2))
+layer1 = tf.keras.layers.Dense(64, activation=tf.nn.relu)(inp)
+
+model = tf.keras.Model(inputs=[inp], outputs=[layer1])
+
+```
+
+or
+
+```python
+model = tf.keras.Sequential()
+model.add(tf.keras.layers.Dense(64, activation=tf.nn.relu))
+
+```
+
+Please refer to the examples in this repository for more details.
+
+
+## tf.probability
+
+We will later learn how to easily design a probabilistic deep learning model by using the `tf.probability` tensorflow library with existing methods.
+
+
+## Dependencies
+
+* Ubuntu 16.04 or above
+* python >= 3.5 
+* tensorflow >= 1.11.0
+
+
 ## TODO list
 
-- [ ] Basic example
-- [ ] Advanced example
-- [ ] Latest example
+- [x] Basic deep learning training
+- [ ] Advanced deep learning training
+- [ ] Example of tf.probability
+- [ ] Example of latest topic
+- [ ] Example of probabilistic metrics
 
