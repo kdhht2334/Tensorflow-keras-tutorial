@@ -47,9 +47,9 @@ We will later learn how to easily design a probabilistic deep learning model by 
 
 ## TODO list
 
-- [x] Basic deep learning training
-- [ ] Advanced deep learning training
-- [ ] Example of tf.probability
-- [ ] Example of latest topic
-- [ ] Example of probabilistic metrics
+- [x] 1.Basic deep learning training
+- [ ] 2.Advanced deep learning training
+- [ ] 3.Example of tf.probability
+- [ ] 4.Example of hot topic
+- [ ] 5.Example of probabilistic metric model
 
